@@ -1,8 +1,11 @@
 # task_tracker_cli
-A simple Command-Line Interface (CLI) based Task Tracker built using Spring Boot.  You can add, update, delete, and list tasks directly from the terminal.
 
+A simple Command-Line Interface (CLI) based Task Tracker built using Java.  
+You can add, update, delete, and list tasks directly from the terminal.
 
-# Features
+---
+
+## Features
 
 - Add new tasks  
 - Update task descriptions  
@@ -11,15 +14,19 @@ A simple Command-Line Interface (CLI) based Task Tracker built using Spring Boot
 - List all tasks or filter by status (Todo / In Progress / Done)  
 - Persistent storage using JSON file (`tasks.json`)  
 
-#project URL
+---
 
-https://github.com/Saikumar1515/task_tracker_cli
+## GitHub Repository
 
-# Quick Start (compile & run)
+[https://github.com/Saikumar1515/task_tracker_cli](https://github.com/Saikumar1515/task_tracker_cli)
+
+---
+
+## Quick Start (compile & run)
 
 Open a terminal in the project root and run:
 
-
+```bash
 # Compile all Java sources into bin/
 javac -d bin src/com/task_tracker/cli/*.java
 
@@ -33,15 +40,14 @@ java -cp bin com.task_tracker.cli.TaskTrackerApp list
 java -cp bin com.task_tracker.cli.TaskTrackerApp update 1 "Learn Spring Boot - Deep Dive"
 
 # Mark task as in progress
-java -cp bin com.task_tracker.cli.TaskTrackerApp mark-in-progress 1
+java -cp bin com/task_tracker.cli.TaskTrackerApp mark-in-progress 1
 
 # Mark task as done
-java -cp bin com.task_tracker.cli.TaskTrackerApp mark-done 1
+java -cp bin com/task_tracker.cli.TaskTrackerApp mark-done 1
 
 # Delete a task
-java -cp bin com.task_tracker.cli.TaskTrackerApp delete 1
+java -cp bin com/task_tracker.cli.TaskTrackerApp delete 1
 
+## Project Source
 
-#project source
-
-This project was built as part of the Task Tracker Project on roadmap.sh
+This project was built as part of the **[Task Tracker Project on roadmap.sh](https://roadmap.sh/projects/task-tracker)
