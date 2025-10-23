@@ -13,4 +13,10 @@ A simple Command-Line Interface (CLI) based Task Tracker built using Spring Boot
 
 #project github url
 
-https://github.com/Saikumar1515/task_tracker_cli.git
+https://github.com/Saikumar1515/task_tracker_cli
+
+cd D:\documents\springboot\task_tracker
+echo "# Task Tracker CLI" > README.md
+git add README.md
+git commit -m "Add README"
+git push
